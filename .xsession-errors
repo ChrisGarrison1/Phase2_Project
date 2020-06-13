@@ -1,0 +1,356 @@
+Xsession: X session started for ubuntu at Sat Jun  6 14:38:04 UTC 2020
+localuser:ubuntu being added to access control list
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+/usr/bin/x-session-manager: X server already running on display :10.0
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[3195]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[3196]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:3188): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:3188): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-17-220:10, Does it exist? Permissions issue?
+
+(xfsettingsd:3220): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:3198): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+process 3226: arguments to dbus_message_new_method_call() were incorrect, assertion "path != NULL" failed in file ../../dbus/dbus-message.c line 1340.
+This is normally a bug in some application using the D-Bus library.
+
+(nm-applet:3224): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(xfwm4:3198): xfwm4-WARNING **: output size (1492x502) and logical screen size (1920x967) do not match
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(xfce4-terminal:4023): Gdk-CRITICAL **: IA__gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:4023): Gdk-CRITICAL **: IA__gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+2020-06-06 15:20:58.228:INFO::Start Help Server: Logging initialized @1007656ms to org.eclipse.jetty.util.log.StdErrLog
+2020-06-06 15:20:58.534:INFO:oejs.session:Start Help Server: DefaultSessionIdManager workerName=node0
+2020-06-06 15:20:58.534:INFO:oejs.session:Start Help Server: No SessionScavenger set, using defaults
+2020-06-06 15:20:58.535:INFO:oejs.session:Start Help Server: node0 Scavenging every 600000ms
+2020-06-06 15:21:14.155:INFO:oejs.session:Stop Help Server: node0 Stopped scavenging
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+
+(xfsettingsd:3220): GLib-GObject-WARNING **: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+xfce4-session-Message: Got disconnected from D-Bus.  Unless this happened during session shutdown, this is probably a bad thing.
+gpg-agent[3196]: SIGHUP received - re-reading configuration and flushing cache
+gpg-agent[3196]: option file '/home/ubuntu/.gnupg/gpg-agent.conf': No such file or directory
+gpg-agent[3196]: SIGTERM received - shutting down ...
+gpg-agent[3196]: gpg-agent (GnuPG) 2.1.11 stopped
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+Xsession: X session started for ubuntu at Sun Jun  7 13:11:13 UTC 2020
+localuser:ubuntu being added to access control list
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+/usr/bin/x-session-manager: X server already running on display :10.0
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[2502]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[2503]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:2495): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:2495): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-17-220:10, Does it exist? Permissions issue?
+
+(xfsettingsd:2531): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+process 2529: arguments to dbus_message_new_method_call() were incorrect, assertion "path != NULL" failed in file ../../dbus/dbus-message.c line 1340.
+This is normally a bug in some application using the D-Bus library.
+
+(xfce4-panel:2509): Wnck-CRITICAL **: wnck_workspace_is_virtual: assertion 'WNCK_IS_WORKSPACE (space)' failed
+
+(xfwm4:2505): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2521): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+
+(xfce4-terminal:2762): Gdk-CRITICAL **: IA__gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:2762): Gdk-CRITICAL **: IA__gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfwm4:2505): xfwm4-WARNING **: output size (1920x967) and logical screen size (1812x682) do not match
+
+(xfwm4:2505): xfwm4-WARNING **: output size (1812x682) and logical screen size (1920x967) do not match
+
+(xfwm4:2505): xfwm4-WARNING **: output size (1920x967) and logical screen size (1812x682) do not match
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(soffice:8883): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:8918): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:8918): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+gpg-agent[2503]: SIGHUP received - re-reading configuration and flushing cache
+gpg-agent[2503]: option file '/home/ubuntu/.gnupg/gpg-agent.conf': No such file or directory
+gpg-agent[2503]: SIGTERM received - shutting down ...
+gpg-agent[2503]: gpg-agent (GnuPG) 2.1.11 stopped
+
+(xfdesktop:2513): libxfce4ui-WARNING **: ICE I/O Error
+
+(xfdesktop:2513): libxfce4ui-WARNING **: Disconnected from session manager.
+
+(Eclipse:3171): GVFS-RemoteVolumeMonitor-WARNING **: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfwm4: Fatal IO error 2 (No such file or directory) on X server :10.0.
+Xsession: X session started for ubuntu at Thu Jun 11 01:30:12 UTC 2020
+localuser:ubuntu being added to access control list
+/usr/bin/x-session-manager: X server already running on display :10.0
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[2501]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[2502]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:2494): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:2494): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-17-220:10, Does it exist? Permissions issue?
+process 2528: arguments to dbus_message_new_method_call() were incorrect, assertion "path != NULL" failed in file ../../dbus/dbus-message.c line 1340.
+This is normally a bug in some application using the D-Bus library.
+
+(xfsettingsd:2531): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:2504): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2527): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[Parent 2676, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2676, Gecko_IOThread] WARNING: pipe error (148): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2676, Gecko_IOThread] WARNING: pipe error (112): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://980.fwk1569164069:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(soffice:5173): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:5173): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:5465): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:5465): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+02:29:48.602 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+02:29:48.693 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-06-11 02:29:48.740:INFO::main: Logging initialized @381ms to org.seleniumhq.jetty9.util.log.StdErrLog
+02:29:48.963 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+02:29:49.049 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+02:29:51.458 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+02:29:51.546 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-06-11 02:29:51.593:INFO::main: Logging initialized @385ms to org.seleniumhq.jetty9.util.log.StdErrLog
+02:29:51.823 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+02:29:51.902 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:221)
+	at org.openqa.selenium.remote.server.SeleniumServer.boot(SeleniumServer.java:131)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$buildLaunchers$3(GridLauncherV3.java:249)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$launch$0(GridLauncherV3.java:86)
+	at java.util.Optional.map(Optional.java:215)
+	at org.openqa.grid.selenium.GridLauncherV3.launch(GridLauncherV3.java:86)
+	at org.openqa.grid.selenium.GridLauncherV3.main(GridLauncherV3.java:70)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.seleniumhq.jetty9.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	at org.seleniumhq.jetty9.server.ServerConnector.open(ServerConnector.java:307)
+	at org.seleniumhq.jetty9.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.seleniumhq.jetty9.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.seleniumhq.jetty9.server.Server.doStart(Server.java:395)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:202)
+	... 6 more
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+02:30:08.409 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+02:30:08.493 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-06-11 02:30:08.536:INFO::main: Logging initialized @357ms to org.seleniumhq.jetty9.util.log.StdErrLog
+02:30:08.765 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+02:30:08.844 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:221)
+	at org.openqa.selenium.remote.server.SeleniumServer.boot(SeleniumServer.java:131)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$buildLaunchers$3(GridLauncherV3.java:249)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$launch$0(GridLauncherV3.java:86)
+	at java.util.Optional.map(Optional.java:215)
+	at org.openqa.grid.selenium.GridLauncherV3.launch(GridLauncherV3.java:86)
+	at org.openqa.grid.selenium.GridLauncherV3.main(GridLauncherV3.java:70)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.seleniumhq.jetty9.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	at org.seleniumhq.jetty9.server.ServerConnector.open(ServerConnector.java:307)
+	at org.seleniumhq.jetty9.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.seleniumhq.jetty9.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.seleniumhq.jetty9.server.Server.doStart(Server.java:395)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:202)
+	... 6 more
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+*** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+[TestNGPlugin] Transitive closure for groups "[]":ParallelTests 
+[TestNGPlugin] Transitive closure for method LaunchChrome: ParallelTests.LaunchChrome 
+[TestNGPlugin] Transitive closure for method TryFacebook1: ParallelTests.TryFacebook1 ParallelTests.LaunchChrome 
+[TestNGPlugin] Transitive closure for method LaunchFirefox: ParallelTests.LaunchFirefox 
+[TestNGPlugin] Transitive closure for method TryFacebook2: ParallelTests.TryFacebook2 ParallelTests.LaunchFirefox 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 4883, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 4883, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 4883, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+gpg-agent[2502]: SIGHUP received - re-reading configuration and flushing cache
+gpg-agent[2502]: option file '/home/ubuntu/.gnupg/gpg-agent.conf': No such file or directory
+gpg-agent[2502]: SIGTERM received - shutting down ...
+gpg-agent[2502]: gpg-agent (GnuPG) 2.1.11 stopped
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+Xsession: X session started for ubuntu at Sat Jun 13 13:00:31 UTC 2020
+localuser:ubuntu being added to access control list
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+/usr/bin/x-session-manager: X server already running on display :10.0
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[2487]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[2488]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:2480): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:2480): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-17-220:10, Does it exist? Permissions issue?
+process 2514: arguments to dbus_message_new_method_call() were incorrect, assertion "path != NULL" failed in file ../../dbus/dbus-message.c line 1340.
+This is normally a bug in some application using the D-Bus library.
+
+(xfsettingsd:2526): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:2490): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2513): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+
+(soffice:3239): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:3239): Gdk-WARNING **: gdk_window_set_icon_list: icons too large

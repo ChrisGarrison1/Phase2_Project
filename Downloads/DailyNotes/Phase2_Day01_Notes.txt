@@ -1,0 +1,337 @@
+Phase 2 - 11 days from 6th June 2020 to 11th July 2020
+85% attendance is mandatory + Assessment Project at the end of the Phase2
+For downloading recording videos 
+  - download  and Install player 
+  - downloaded videos wil be available in 12 to 24 hrs
+  - this works only on Mac and Windows Machines (it does not work on Mobile devices)
+Attendance you can see after the session or Phase 2 is complete 
+it runs for 11 days - 
+In case you are facing any disconnect - and your attendance does not get registered in the lms - you can report it to Simplilearn support team by raising a ticket
+For raising a ticket, you can go to the simplilearn website
+CLick on Help link, Go through the article or ask a query 
+Phase 2 - comprises of 7 sections
+We have Project Assisted Practices across the 7 sections
+Primarily, it is there in 
+Section 2 - Testing with Testng - 17 Assisted Practices
+Section 3 - Jenkins - 3 Assisted Practices
+Section 4 - understanding TDD
+Section 5 - INtroduction to JUnit
+Section 6 - Junit5 - SOme Assisted Practices
+Section 7 - Cucumber BDD - we will have some Assisted Practices
+
+Maximum Assisted Practices and couple of unassisted practices
+Assisted Practices are a must to be done during the session - required your certification 
+unassisted are optional and not counted for your certification but is your learning purpose without guidance
+On the 11th day we will have an Assessment Project
+
+1.Login into Lms
+2.Click on Master Program
+3.Click on Phase 2 - Self Learning
+4. Click on Practice Labs - it will take few minutes for the lab to start
+5.Click on Launch Lab
+6.Click on Open in new tab (on the top right corner next to fullscreen view icon)
+7.Click on OK button
+
+The softwares we are going to use
+1.JDK 1.8 is already installed in the ubuntu (linux environment)
+2.Eclipse IDE is also already installed
+
+First icon is for minimizing all open windows
+second icon is for terminal emulator - all commands can be executed here
+Third Icon is web browser pointing to Mozilla firefox
+Fourth Icon is search - libreOffice for Ubuntu (for excel operations)
+Fifth icon is for File Manager - File Explorer
+/home/ubuntu ---> this is the ubuntu environment where all your file/directory are available
+ls --> listing all the directories
+
+1.Double Click on Fifth Icon, Select Open Folder
+2.Copy the address from the address bar 
+/home/ubuntu
+3.Click on Terminal Emulator
+Paste the command
+cd /home/ubuntu
+
+4.Download all coursewares for Phase 2
+In Lms, go to Self Learning - Scroll down and download the Course Resources
+1.ebooks 
+2.Lab Guide
+
+Issue1 in ubuntu - some have issues in Right Click pasting the commands in the Terminal Emulator
+Issue2 - Jenkins needs to be installed in the machines
+
+Click on Minimise all windows (first icon) and then this will take you 
+to the desktop 
+Double click on Eclipse Icon in the desktop
+Launch Eclipse and use the default workspace
+/home/ubuntu/eclipse_workspace
+We are going to create our project in eclipse_workspace
+
+for installing jenkins - check if this command is working or not
+sudo apt install jenkins
+
+To install Testng
+First launch Eclipse
+First way to Install TestNG
+============================
+Verify TestNg is already installed in Eclipse
+Go to Help Menu > Select Eclipse Market Place
+and Perform Search on Testng - Check if the button is Installed or Install
+if it is Installed, that means TestNg is already installed in the system
+
+Second way to Install TestNG
+============================
+Click on Download section and copy the below url
+https://dl.bintray.com/testng-team/testng-eclipse-release/
+
+Select Help Menu > Select Install New Software
+Link for download Testng https://testng.org/doc/download.html
+Click on Already Installed
+Perform Search on Testng, you can see it is already installed
+
+To verify if maven is already installed
+Execute the command mvn -v in the Terminal Emulator
+
+Issue3 - Omi facing installing Maven
+Resolved - Execute update statement and follow it by executing install command
+
+Installation of ant is verified 
+cd /usr/bin
+ls ant
+ant -version
+
+Maven local Repository 
+- junit/Cucumber 
+cd /home/ubuntu/.m2/repository
+ls
+In the pom.xml we need to specify, it will reflect here
+
+For Junit and Cucumber, the lab instruction needs to be revised
+
+Apache POI 
+cd /usr/share/java
+ls
+
+ExtentReports
+cd /home/ubuntu/libs
+ls
+
+
+Automation Testing
+- Repeated Tasks - Normally in our Projects,
+we will have Project Releases - and Existing functionalities
+which need to tested for each Release becomes part of your 
+Regression Test Suite and is normally considered for automation
+
+Speeds up Execution
+Saves Money
+Consistent/Reliable and with no human errors
+
+What is Automation?
+Simulating your manual tester's user actions
+Automation allows us to execution Regression Suites without attending them
+All you need to do is run the Scripts and Generate the Report
+
+Automation Scripts should be written for the TestCases targeted for automation
+
+Repeated Tasks are considered - Regression Test Suite
+Increases in volume with every release - because every release has some new features added to your existing functionality
+when ever, a product or application goes live or goes to production, you need to make sure existing functionality is working fine 
+Over time, if you keep enhancing your application features, the regression suite increases in volumne - it is beneficial automate the suite and run it for every build/release
+
+Candidates for automating a testcase
+Repeated TestCases
+
+Candidates for not automating 
+Expected Results are not consistent/Non Reproducible issue
+frequent changes in Requirement
+Not Repeatable - GUI TestCases
+
+Selection Criteria for Selecting an automation tool
+- Technology used to develop the application
+- Type of application - Desktop, Client Server, Web, WebService
+- GO through the application Regression suite testcases and identify 
+what needs to be automated - 100 testcases 
+- Do I have budget to go for a License or Open Source tool
+QTP --> Quick Test Professional now it is called 
+Unified Functional Tester (UFT) and UFT is upgraded to 
+LeanFT 
+QTP/UFT are capable automating desktop,client server, web based applications using vbscript and javascript - subset of Visual Basic and it is easier to code than any programming language
+Oracle,PowerBuilder, Siebel - all applications can be automated using UFT/QTP ---> it covers a wide range - it has plugins or addins for each technology - those can be identified through the addins - addins are technology specific 
+But after Selenium came into picture and developed over time, UFT has been Upgraded to LeanFT to support Programming languages like C# and Java - it has moved to developer language.
+LeanFT/QTP/UFT - Licensed Tool - License are required separately each add in.
+Selenium - Open source - free of cost
+
+
+
+
+
+
+
+
+
+
+
+Instructions on how to get Project Assisted Practice Document
+Go to Self Learning
+Click on Section 02 - Testing Basics with Testng
+1.3 Practice Project Assisted Practice
+Double click on the above link, on the right side
+you can see quick instructions and 
+also a document to download for detailed instructions
+
+1.To learn all the Testng Annotations
+TestNG is a unit testing framework - it is java based and has test annotations to support creating testcases and run them as a suite and build framework
+TestNG has many more features 
+1.Create a Simple Java Project and name it SampleProject
+Select File > New > Project > JavaProject > Specify the Project name 
+SampleProject and Click on Finish 
+Click on No for Perspectives
+2.Reference TestNG Library
+Select Project > 
+right Click Select Properties > 
+Select Java Build Path
+Select Libraries tab
+Click on Add Library and Select TestNG and Click on OK button
+
+OR
+Select Project > Right Select Build Path > Configure Build Path
+Select Libraries Tab in Java Build Path 
+Click on Add Library and Select TestNG 
+Click on OK button
+
+on the left Panel
+2.Create a package named com.annotations
+3.Create a class named TestAnnotations under com.annotations
+1.To write testcases using Testng, we need to use one annotation mandatorily that is @Test
+2.When we specify @Test to a method, it implies that we are marking the method as a testmethod - any method marked with @Test will appear in the TestNg results
+3.Now, we can have more one method marked as a testcase in a class - it implies there are 2 testcases written using testng and it will reflect 2 runs - Now, there is no specific order in which it runs - normally, it runs in alphabetical order 
+we normally,have to give to meaningful names to our testcases
+login
+accountEnquiry
+FundTransfer
+these testcases have to be independent of each other because the order is decided by the alphabetical name of the method 
+accountEnquity
+FundTransfer
+login 
+Is it right? no we normally need to login before we can perform fundTransfer or accountEnquiry so thus, it is important to order the execution - this can be achieved via grouping or priority
+
+@Test - Test1
+@Test - Test2
+@BeforeMethod
+@AfterMethod
+@BeforeTest
+@AfterTest
+@BeforeClass
+@AfterClass
+
+If i have all the above annotations in one class, how to know what is the order in which the methods will run and what will be shown in Testng results
+
+1.There are only testcases in this class - Test1 and Test2 because only these 2 are marked with @Test annotation
+2.Now, @BeforeMethod is like PreCondition - Execution of a Pre-Condition before a Test executed - Thus if you come across a method marked with @BeforeMethod, it implies, it will run for every test before the test gets executed
+
+@BeforeMethod - Launch Chrome
+Test1 - Login to Facebook
+@BeforeMethod - Launch Firefox
+Test2 - Login to Facebook via Firefox
+
+@AfterMethod --->Post Condition - it means it will get executed after every test marked with @Test is executed
+
+@BeforeMethod - Launch Chrome
+Test1 - Login to Facebook
+@AfterMethod - Close Browser
+@BeforeMethod - Launch Firefox
+Test2 - Login to Facebook via Firefox
+@AfterMethod - Close Browser
+
+@BeforeClass - before starting execution of the class
+@AfterClass - after all the test methods marked with @Test are executed in the class
+This is at a class level
+@BeforeClass
+@BeforeMethod - Launch Chrome
+Test1 - Login to Facebook
+@AfterMethod - Close Browser
+@BeforeMethod - Launch Firefox
+Test2 - Login to Facebook via Firefox
+@AfterMethod - Close Browser
+@AfterClass
+
+4.If  @BeforeTest and @AfterTest is there, in it will execute before class and after the class
+@BeforeTest
+@AfterTest
+@BeforeSuite
+@AfterSuite
+this can we see via Bulk Execution of TestCases
+If you notice ,we executed 2 testcases written in a single class but we cannot have all the testcases in one class
+how do we execute Test Suites in Bulk - Regression suite
+we will create a testng.xml - there is a template for this and specify the testng  testcases that we want to execute for the testsuite execution
+
+To create a testng.xml file manually in the project
+1.Select the Project > Right Click > Select New > Other > Expand General > Select File > Specify the filename as testng.xml and click on Finish button
+testng.xml will be created at the project directory path
+Click on Source tab in the right hand side inside testng.xml
+paste the template of testng.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testannotations.TestAnnotations"/>
+      <class name="com.annotations.TestAnnotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+packagename.classname
+Since, we are using java as the programming language - it is case sensitive - lower and upper case are considered different
+
+com.annotations.TestAnnotations
+
+Pushing it to the Github Repositories
+1.Login to Github Account with my credentials (you need to do with yours)
+2.Create a new Repository with Phase2_Project
+Select Initialize this Repository with README
+Click on Create Repository
+https://github.com/canindit75/Phase2_Project
+
+Click on Clone or Download to get the github repository url
+https://github.com/canindit75/Phase2_Project.git
+
+3.Go to the command line (in terminal Emulator)
+from the project workspace
+cd /home/ubuntu/Testng_Workspace/SampleProjects
+execute the command 
+git init
+git add .
+git commit -m "commit message"
+
+
+
+
+git remote add origin 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sect

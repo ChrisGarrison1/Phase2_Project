@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SikuliX
+Comment=
+Exec=java -jar /opt/sikulix-2.0.1/sikulix-2.0.1.jar
+Icon=/opt/sikulix-2.0.1/ide-icon-64.png
+Path=
+Terminal=false
+StartupNotify=false

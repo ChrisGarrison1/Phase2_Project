@@ -1,0 +1,100 @@
+We have done the first 3 steps
+When you are executing this command, you are it doing from with in the project Path
+First you need to change directory to the Project Directory and then execute the git init command
+Initializing the git repository 
+git init
+
+You have a project available locally in your machine - you made some changes - after changes are made and they are working fine, you would like to commit the changes locally and push it your remote repository which is your github
+
+you are making a change - either because you are fixing a defect or enhancing the code for a feature enhancement or new requirement
+
+Project code
+
+4 people are working on it on different features/defects
+all of your making on own set of changes 
+the project should work with all the changes and should reflect working version of featuring/defect fixes and then you keep all the source code labelled with changes and keep it in a central repository - which is one placeholder for all the team members working the project
+
+git add . 
+adds all the files in the project 
+git commit -m "committed the project"
+git remote add origin https://github.com/canindit75/Phase2_Project.git
+git push -f origin master
+
+project code is pushed from the local repository to the remote github repository
+
+1.We learnt all the test annotations 
+2.We learnt about how to execute dependent testcases
+For executing AccountEnquiry, login is a pre-requisite
+For executing FundTransfer, login is a pre-requisite 
+
+If I have execute a database query - i need to first make the server is started and it is up and running
+We have something called Hard and Soft dependencies
+Hard dependency where is the dependent testcases needs to pass or pre-requisite needs to pass for the testcase to be executed
+
+Soft dependency where in the dependent testcase even if it does nt run, you can go ahead execute the testcase 
+
+When Login failed, the AccountEnquiry and FundTransfer testcases did not get executed, is it hard dependency or a soft dependency?
+So, it is a hard dependency
+Now, by default, we have a property for test method called alwaysRun which is by default false - that means alwaysRun = false with dependsOnMethod
+it is a hard dependency
+if I want to make it a soft dependency, i have add one more property and specify as true alwaysRun=true --> it means regardless of the dependent test method not running or passing, please go ahead and execute the test case - this is called soft dependency
+
+First lets go browser navigation
+1.launch mozilla firefox
+2.navigate to an url 
+3.enter some details
+
+1.first download all the selenium java jars and reference it in the project
+2.download geckodriver linux 64 bit 0.26.0 and place it in Resources folder under Project directory path
+/SampleProject/Resources/geckodriver
+
+get the geckodriver from 
+https://github.com/mozilla/geckodriver/releases/tag/v0.26.0
+
+1.Grouping of our test cases 
+We categorize our testcases as module wise, testing type, etc
+testing type - smoke, functional,regression
+all the testcases belong to login functionality 
+I can group based on platform,browser type
+I want to group all my testcases based on categories
+
+Lets say we have a test case login and we want to run with multiple sets of test data - lets consider here the example of 2 sets of data
+test data - username and password
+2 columns
+2 sets of data - 2 rows
+2*2 dimensional array
+      username   password
+row1   user1     pass1
+row2   user2     pass2
+
+1. getLoginData has the test data for LoginTestCase
+2. In Testng, if I have specify a method as dataprovider - then i have mark the method as @DataProvider - it implies, it returns a 2 dimensional array comprising of login data  which needs to be passed to the testcase
+3.How to establish connection between the test case and test data 
+along with @Test(dataProvider="<specify the dataprovider method>"
+and how many columns in each row - 2 columns - username and password for each test data set execution
+user1 pass1
+user2 pass2
+I have to pass the 2 columns in sequence in the test case method and then use it in the method to login with the specified test data
+
+Please login to facebook using dataprovider
+https://testng.org/doc/documentation-main.html#parameters-dataproviders
+
+Regular Expressions with Groups
+===============================
+
+Assertions - Verification of your actual and expected result 
+Hard and Soft dependencies Similarly we have the concept 
+Hard and Soft Assertions 
+Hard Assertion - when an assertion fails, it immediately terminates or stop of execution at that step
+Now, in case we want to continue execution of the remaining/rest of steps - which could in our in a test suite - if one testcase fails, we would still like to continue execution of next testcase - automation purpose only when execute in bulk unattended - soft assertion - even if the step fails, you can catch the exception AssertionError and handle it to continue with next steps 
+
+1.assertEquals, assertTrue and assertFalse are individual verifications
+2.assertAll asserts all the statements executed till assertAll
+3.Even one failed assert will fail the complete the code thus assertAll will result in fail 
+4.If specified in try and catch block, for first assert Failed step, it will execute the matching catch block which will be an AssertionError block to handle the exception
+Launch --> Facebook --> Login
+Assert.assertNotNull
+Assert.assertNull
+
+
+

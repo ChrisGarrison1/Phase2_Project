@@ -1,0 +1,8 @@
+[Default Applications]
+x-scheme-handler/postman=Postman.desktop
+
+[Added Associations]
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-java-archive=org.gnome.FileRoller.desktop;JB-java-jdk8.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+text/plain=libreoffice-writer.desktop;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Jmeter
+Comment=
+Exec=/opt/apache-jmeter-5.2.1/bin/jmeter.sh
+Icon=/opt/apache-jmeter-5.2.1/docs/images/jmeter.png
+Path=/opt/apache-jmeter-5.2.1/bin
+Terminal=false
+StartupNotify=false
